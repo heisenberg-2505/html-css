@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CouponDunia Internship</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,       initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+    	 <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">CouponDunia</a> 
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="stores.html">All Stores</a></li>
+                    <li><a href="coupons.html">All Coupons</a></li>
+                    <li><a href="offers.html">All Offers</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <!--Stores section-->
+        <section>
+            <div class="container">
+                <h2> All Stores </h2>
+                <hr>
+                <!-- Row 1 -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="#myModal1" data-toggle="modal" role="button">
+                                <img src="images/store1.jpg" style="height:200px;width:100%">
+                                <div class="caption">
+                                    <p style="text-align: center">Amazon</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal1" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header" style="padding:35px 50px;">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 style="text-align: center">Store Information</h4>
+                                </div>
+                                <div class="modal-body" style="padding:40px 50px;">
+                                    <div class="thumbnail">
+                                        <img src="images/store1.jpg" style="height:100px;width:100px">
+                                        <div class="caption">
+                                            <p style="text-align: center">Amazon</p>
+                                        </div>
+                                    </div>
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a data-toggle="tab" href="#coupons">Coupons</a></li>
+                                        <li><a data-toggle="tab" href="#offers">Offers</a></li>
+                                        <li><a data-toggle="tab" href="#spoffers">Special Offers</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="coupons" class="tab-pane fade in active">
+                                            <h3>Coupons</h3>
+                                            <ul>
+                                                <li>Coupon 1 </li>
+                                                <li>Coupon 2 </li>
+                                                <li>Coupon 3 </li>
+                                                <li>Coupon 4 </li>
+                                            </ul>
+                                        </div>
+                                        <div id="offers" class="tab-pane fade">
+                                            <h3>Offers</h3>
+                                            <ul>
+                                                <li>Offer 1 </li>
+                                                <li>Offer 2 </li>
+                                                <li>Offer 3 </li>
+                                                <li>Offer 4 </li>
+                                            </ul>
+                                        </div>
+                                        <div id="spoffers" class="tab-pane fade">
+                                            <h3>Special Offers</h3>
+                                            <ul>
+                                                <li>Special Offer 1 </li>
+                                                <li>Special Offer 2 </li>
+                                                <li>Special Offer 3 </li>
+                                                <li>Special Offer 4 </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                                    <p>Not a member? <a href="#">Sign Up</a></p>
+                                    <p>Additional conditions apply for receiving benefits of any offer/coupon of the store.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- End Modal-->
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="#myModal2" data-toggle="modal" role="button">
+                                <img src="images/store2.jpg" style="height:200px;width:100%">
+                                <div class="caption">
+                                    <p style="text-align: center">Flipkart</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal2" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header" style="padding:35px 50px;">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 style="text-align: center">Store Information</h4>
+                                </div>
+                                <div class="modal-body" style="padding:40px 50px;">
+                                    <div class="thumbnail">
+                                        <img src="images/store2.jpg" style="height:100px;width:100px">
+                                        <div class="caption">
+                                            <p style="text-align: center">Flipkart</p>
+                                        </div>
+                                    </div>
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a data-toggle="tab" href="#coupons2">Coupons</a></li>
+                                        <li><a data-toggle="tab" href="#offers2">Offers</a></li>
+                                        <li><a data-toggle="tab" href="#spoffers2">Special Offers</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="coupons2" class="tab-pane fade in active">
+                                            <h3>Coupons</h3>
+                                            <ul>
+                                                <li>Coupon 1 </li>
+                                                <li>Coupon 2 </li>
+                                                <li>Coupon 3 </li>
+                                                <li>Coupon 4 </li>
+                                            </ul>
+                                        </div>
+                                        <div id="offers2" class="tab-pane fade">
+                                            <h3>Offers</h3>
+                                            <ul>
+                                                <li>Offer 1 </li>
+                                                <li>Offer 2 </li>
+                                                <li>Offer 3 </li>
+                                                <li>Offer 4 </li>
+                                            </ul>
+                                        </div>
+                                        <div id="spoffers2" class="tab-pane fade">
+                                            <h3>Special Offers</h3>
+                                            <ul>
+                                                <li>Special Offer 1 </li>
+                                                <li>Special Offer 2 </li>
+                                                <li>Special Offer 3 </li>
+                                                <li>Special Offer 4 </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                                    <p>Not a member? <a href="#">Sign Up</a></p>
+                                    <p>Additional conditions apply for receiving benefits of any offer/coupon of the store.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- End Modal-->
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="#myModal3" data-toggle="modal" role="button">
+                                <img src="images/store3.jpg" style="height:200px;width:100%">
+                                <div class="caption">
+                                    <p style="text-align: center">Snapdeal</p>
+                                </div>
+                            </a> 
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal3" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header" style="padding:35px 50px;">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 style="text-align: center">Store Information</h4>
+                                </div>
+                                <div class="modal-body" style="padding:40px 50px;">
+                                    <div class="thumbnail">
+                                        <img src="images/store3.jpg" style="height:100px;width:100px">
+                                        <div class="caption">
+                                            <p style="text-align: center">Snapdeal</p>
+                                        </div>
+                                    </div>
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a data-toggle="tab" href="#coupons3">Coupons</a></li>
+                                        <li><a data-toggle="tab" href="#offers3">Offers</a></li>
+                                        <li><a data-toggle="tab" href="#spoffers3">Special Offers</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="coupons3" class="tab-pane fade in active">
+                                            <h3>Coupons</h3>
+                                            <ul>
+                                                <li>Coupon 1 </li>
+                                                <li>Coupon 2 </li>
+                                                <li>Coupon 3 </li>
+                                                <li>Coupon 4 </li>
+                                            </ul>
+                                        </div>
+                                        <div id="offers3" class="tab-pane fade">
+                                            <h3>Offers</h3>
+                                            <ul>
+                                                <li>Offer 1 </li>
+                                                <li>Offer 2 </li>
+                                                <li>Offer 3 </li>
+                                                <li>Offer 4 </li>
+                                            </ul>
+                                        </div>
+                                        <div id="spoffers3" class="tab-pane fade">
+                                            <h3>Special Offers</h3>
+                                            <ul>
+                                                <li>Special Offer 1 </li>
+                                                <li>Special Offer 2 </li>
+                                                <li>Special Offer 3 </li>
+                                                <li>Special Offer 4 </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                                    <p>Not a member? <a href="#">Sign Up</a></p>
+                                    <p>Additional conditions apply for receiving benefits of any offer/coupon of the store.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- End Modal-->
+                </div>
+                <hr>
+                <!-- Row 2 -->
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="#myModal4" data-toggle="modal" role="button">
+                                <img src="images/store4.jpg" style="height:200px;width:100%">
+                                <div class="caption">
+                                    <p style="text-align: center">Jabong</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal4" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header" style="padding:35px 50px;">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 style="text-align: center">Store Information</h4>
+                                </div>
+                                <div class="modal-body" style="padding:40px 50px;">
+                                    <div class="thumbnail">
+                                        <img src="images/store4.jpg" style="height:100px;width:100px">
+                                        <div class="caption">
+                                            <p style="text-align: center">Jabong</p>
+                                        </div>
+                                    </div>
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a data-toggle="tab" href="#coupons4">Coupons</a></li>
+                                        <li><a data-toggle="tab" href="#offers4">Offers</a></li>
+                                        <li><a data-toggle="tab" href="#spoffers4">Special Offers</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="coupons4" class="tab-pane fade in active">
+                                            <h3>Coupons</h3>
+                                            <ul>
+                                                <li>Coupon 1 </li>
+                                                <li>Coupon 2 </li>
+                                                <li>Coupon 3 </li>
+                                                <li>Coupon 4 </li>
+                                            </ul>
+                                        </div>
+                                        <div id="offers4" class="tab-pane fade">
+                                            <h3>Offers</h3>
+                                            <ul>
+                                                <li>Offer 1 </li>
+                                                <li>Offer 2 </li>
+                                                <li>Offer 3 </li>
+                                                <li>Offer 4 </li>
+                                            </ul>
+                                        </div>
+                                        <div id="spoffers4" class="tab-pane fade">
+                                            <h3>Special Offers</h3>
+                                            <ul>
+                                                <li>Special Offer 1 </li>
+                                                <li>Special Offer 2 </li>
+                                                <li>Special Offer 3 </li>
+                                                <li>Special Offer 4 </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                                    <p>Not a member? <a href="#">Sign Up</a></p>
+                                    <p>Additional conditions apply for receiving benefits of any offer/coupon of the store.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- End Modal-->
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="#myModal5" data-toggle="modal" role="button">
+                                <img src="images/store5.jpg" style="height:200px;width:100%">
+                                <div class="caption">
+                                    <p style="text-align: center">Lenskart</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal5" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header" style="padding:35px 50px;">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 style="text-align: center">Store Information</h4>
+                                </div>
+                                <div class="modal-body" style="padding:40px 50px;">
+                                    <div class="thumbnail">
+                                        <img src="images/store5.jpg" style="height:100px;width:100px">
+                                        <div class="caption">
+                                            <p style="text-align: center">Lenskart</p>
+                                        </div>
+                                    </div>
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a data-toggle="tab" href="#coupons">Coupons</a></li>
+                                        <li><a data-toggle="tab" href="#offers">Offers</a></li>
+                                        <li><a data-toggle="tab" href="#spoffers">Special Offers</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="coupons5" class="tab-pane fade in active">
+                                            <h3>Coupons</h3>
+                                            <ul>
+                                                <li>Coupon 1 </li>
+                                                <li>Coupon 2 </li>
+                                                <li>Coupon 3 </li>
+                                                <li>Coupon 4 </li>
+                                            </ul>
+                                        </div>
+                                        <div id="offers5" class="tab-pane fade">
+                                            <h3>Offers</h3>
+                                            <ul>
+                                                <li>Offer 1 </li>
+                                                <li>Offer 2 </li>
+                                                <li>Offer 3 </li>
+                                                <li>Offer 4 </li>
+                                            </ul>
+                                        </div>
+                                        <div id="spoffers5" class="tab-pane fade">
+                                            <h3>Special Offers</h3>
+                                            <ul>
+                                                <li>Special Offer 1 </li>
+                                                <li>Special Offer 2 </li>
+                                                <li>Special Offer 3 </li>
+                                                <li>Special Offer 4 </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                                    <p>Not a member? <a href="#">Sign Up</a></p>
+                                    <p>Additional conditions apply for receiving benefits of any offer/coupon of the store.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- End Modal-->
+                    <div class="col-md-4">
+                        <div class="thumbnail">
+                            <a href="#myModal6" data-toggle="modal" role="button">
+                                <img src="images/store6.jpg" style="height:200px;width:100%">
+                                <div class="caption">
+                                    <p style="text-align: center">Myntra</p>
+                                </div>
+                            </a> 
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal6" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header" style="padding:35px 50px;">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 style="text-align: center">Store Information</h4>
+                                </div>
+                                <div class="modal-body" style="padding:40px 50px;">
+                                    <div class="thumbnail">
+                                        <img src="images/store6.jpg" style="height:100px;width:100px">
+                                        <div class="caption">
+                                            <p style="text-align: center">Myntra</p>
+                                        </div>
+                                    </div>
+                                    <ul class="nav nav-tabs">
+                                        <li class="active"><a data-toggle="tab" href="#coupons6">Coupons</a></li>
+                                        <li><a data-toggle="tab" href="#offers6">Offers</a></li>
+                                        <li><a data-toggle="tab" href="#spoffers6">Special Offers</a></li>
+                                    </ul>
+                                    <div class="tab-content">
+                                        <div id="coupons6" class="tab-pane fade in active">
+                                            <h3>Coupons</h3>
+                                            <ul>
+                                                <li>Coupon 1 </li>
+                                                <li>Coupon 2 </li>
+                                                <li>Coupon 3 </li>
+                                                <li>Coupon 4 </li>
+                                            </ul>
+                                        </div>
+                                        <div id="offers6" class="tab-pane fade">
+                                            <h3>Offers</h3>
+                                            <ul>
+                                                <li>Offer 1 </li>
+                                                <li>Offer 2 </li>
+                                                <li>Offer 3 </li>
+                                                <li>Offer 4 </li>
+                                            </ul>
+                                        </div>
+                                        <div id="spoffers6" class="tab-pane fade">
+                                            <h3>Special Offers</h3>
+                                            <ul>
+                                                <li>Special Offer 1 </li>
+                                                <li>Special Offer 2 </li>
+                                                <li>Special Offer 3 </li>
+                                                <li>Special Offer 4 </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+                                    <p>Not a member? <a href="#">Sign Up</a></p>
+                                    <p>Additional conditions apply for receiving benefits of any offer/coupon of the store.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <!-- End Modal-->
+                </div>
+            </div>
+            <hr>
+        </section>
+       <div id="footer" style="background-color: #414141">
+            <div class="container">
+                <br>
+                <p style="text-align: center" class="text-muted">Copyright &copy Coupon-Dunia 2017</p>
+                <br>
+                <p style="text-align: center" class="text-muted">
+                        <strong>Information of the Designer</strong><br>
+                        <strong>Name - </strong>Manas Gupta<br>
+                        <strong>Mobile Number - </strong>1483369(Breaking Bad fans will get it.)<br>
+                        <strong>Email - </strong>2015csb1018@iitrpr.ac.in<br>
+                        <strong>College - </strong>IIT ROPAR<br>
+                </p>
+            </div> 
+        </div>
+    </body>
+</html>
