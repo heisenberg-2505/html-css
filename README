@@ -1,20 +1,9 @@
-           TECHNICAL ASSIGNMET FOR COUPON DUNIA INTERNSHIP
+@author heisenberg
+Personal project involving some static html pages with the use of CSS and Bootstrap.
 
+Walkthrough.
 To open homepage of the website open the index.html file in your browser.
-
 To open the coupons page click on the All Coupons option in the navbar. Click on any coupon to view its information.
-
 To open the stores page click on the All Stores option in the navbar. Click on any store to view its information.
-
 To open the offers page click on the All Offers option in the navbar. Click on any offer to view its information.
-
 To open the profile page click on the Profile option in the navbar. There is an option to edit the profile.
-
-
-
-
-Submitted by-
-
-Manas Gupta
-2015csb1018@iitrpr.ac.in
-IIT ROPAR
